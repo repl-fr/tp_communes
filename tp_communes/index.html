@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistiques des communes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Statistiques des communes de France</h1>
+
+    <main>
+        <label for="region">Région :</label>
+        <select id="region">
+            <option value="">Choisir une région</option>
+        </select>
+
+        <label for="departement">Département :</label>
+        <select id="departement" disabled>
+            <option value="">Choisir un département</option>
+        </select>
+
+        <label for="commune">Commune :</label>
+        <select id="commune" disabled>
+            <option value="">Choisir une commune</option>
+        </select>
+
+        <p id="message">Sélectionnez une région pour commencer.</p>
+
+        <section id="resultat">
+            <h2>Statistiques</h2>
+            <p>Les informations s'afficheront ici.</p>
+        </section>
+    </main>
+</body>
+</html>
